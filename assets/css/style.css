@@ -1,5 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Gruppo&family=Hammersmith+One&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kanit:wght@800&family=Quicksand:wght@300&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+border: none;
+}
+
 body {
-    font-family: 'Quicksand', sans-serif;
-    
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-weight: 400;
+    color: #000
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    color: #000
+}
+
+#logo {
+    font-size: 500%;
+    float: left;
+    letter-spacing: 5px;
+    line-height: 55px;
+}
+#menu {
+    float: right;
+}
+#menu li {
+    display: inline-block;
 }

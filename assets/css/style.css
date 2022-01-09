@@ -5,6 +5,7 @@ margin: 0;
 padding: 0;
 border: none;
 }
+/* Header */
 
 body {
     font-family: 'Quicksand', Arial, sans-serif;
@@ -16,16 +17,49 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     color: #000
 }
+#static {
+    position: fixed;
 
+}
 #logo {
     font-size: 500%;
     float: left;
     letter-spacing: 5px;
     line-height: 55px;
+
 }
 #menu {
-    float: right;
+    float: left;
+
 }
 #menu li {
+    font-family: 'Kanit';
     display: inline-block;
+    margin-right: 50px;
+    text-transform: uppercase;
+
+}
+#menu li a {
+    text-decoration-line: none;
+}
+a:hover {
+    color: #bfff00;
+}
+.active {
+    color: #bfff00;
+}
+
+
+
+/* Cover image */
+
+#cover-image {
+    background: url('../images/cover-image.jpg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+}
+.container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }

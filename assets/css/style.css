@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
 }
+
 .button {
     padding: 20px;
     font-family: 'Kanit', sans-serif;
@@ -13,11 +14,10 @@
     color: #000;
     background-color: rgba(0, 0, 255, 0.6);
     border: 3px solid #000;
-    margin: 0%, auto;
-    margin-top: 50px;
     text-decoration: none;
 
 }
+
 /* Header */
 
 body {
@@ -34,7 +34,8 @@ h5,
 h6 {
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
-    color: #000
+    color: #000;
+    margin-bottom: 20px;
 }
 
 #static {
@@ -101,3 +102,39 @@ a:hover {
     position: absolute;
 }
 
+#cover-button {
+    display: inline-block;
+    margin: 0%, auto;
+}
+
+/* About */
+
+#about-right {
+    float: right;
+    height: 300px;
+    width: 60%;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 60px;
+    line-height: 20px;
+}
+
+#about-left {
+    float: left;
+    height: 300px;
+    width: 30%;
+    margin-top: 60px;
+    }
+
+    #about-photo-container {
+        border: 10px solid #bfff00;
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    #about-photo {
+        background: url('../images/profile-image.jpg') no-repeat center center;
+        height: 100%;
+        margin: 0 auto;
+    }

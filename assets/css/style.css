@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Kanit:wght@800&family=Quicksand:wght@300&display=swap');
 
 * {
-margin: 0;
-padding: 0;
-border: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
 /* Header */
 
 body {
@@ -12,15 +13,23 @@ body {
     font-weight: 400;
     color: #000
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
     color: #000
 }
+
 #static {
     position: fixed;
 
 }
+
 #logo {
     font-size: 500%;
     float: left;
@@ -28,10 +37,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 55px;
 
 }
+
 #menu {
     float: left;
 
 }
+
 #menu li {
     font-family: 'Kanit';
     display: inline-block;
@@ -39,12 +50,15 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 
 }
+
 #menu li a {
     text-decoration-line: none;
 }
+
 a:hover {
     color: #bfff00;
 }
+
 .active {
     color: #bfff00;
 }
@@ -58,8 +72,19 @@ a:hover {
     height: 600px;
     width: 100%;
 }
+
 .container {
     height: 600px;
     width: 100%;
     overflow: hidden;
+}
+
+#cover-text {
+    color: #fff;
+    background: rgba(0, 0, 255, 0.6);
+
+    top: 250px;
+    left: 400px;
+    padding: 3%;
+    position: absolute;
 }

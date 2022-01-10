@@ -58,6 +58,10 @@ h6 {
     text-decoration-line: none;
 }
 
+#menu li a:hover {
+    color: #bfff00;
+}
+
 a:hover {
     color: #bfff00;
 }
@@ -170,8 +174,7 @@ a:visited {
 /* Exhibition dates */
 #exhibition-dates {
     height: 300px;
-    text-align: left;
-    margin-left: 60px;
+    text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
 
@@ -179,12 +182,12 @@ a:visited {
 
 }
 .exhibition-dates-section {
-    width: 30%;
-   
-   
-   
+    width: 33%;
     float: left;
     display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
     
 }

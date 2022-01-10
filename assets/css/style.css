@@ -62,6 +62,10 @@ a:hover {
     color: #bfff00;
 }
 
+a:visited {
+    color: inherit;
+}
+
 .active {
     color: #bfff00;
 }
@@ -106,6 +110,7 @@ a:hover {
 #cover-text h2 {
     letter-spacing: 5px;
 }
+
 #cover-button {
     display: inline-block;
     margin: 0%, auto;
@@ -130,31 +135,56 @@ a:hover {
     width: 30%;
     margin-top: 60px;
     margin-bottom: 60px;
-    }
+}
 
-    #about-photo-container {
-        border: 10px solid #bfff00;
-        height: 300px;
-        width: 300px;
-        margin: 0 auto;
-    }
+#about-photo-container {
+    border: 10px solid #bfff00;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
 
-    #about-photo {
-        background: no-repeat center center;
-        height: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-    }
+#about-photo {
+    background: no-repeat center center;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
-    /* Gallery */
-    #gallery {
-        height: 300px;
-        width: 100vw;
-        display: inline-flex;
+/* Gallery */
+#gallery {
+    height: 300px;
+    width: 100vw;
+    display: inline-flex;
+    overflow: auto;
+    scroll-behavior: smooth;
 
-    }
-    #gallery img {
-        height: 100%;
-        width: 100%;
-        margin-left: 2px;
-    }
+}
+
+#gallery img {
+    height: 100%;
+    width: 100%;
+    margin-left: 2px;
+}
+
+/* Exhibition dates */
+#exhibition-dates {
+    height: 300px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    
+
+}
+.exhibition-dates-section {
+    width: 30%;
+   
+   
+   
+    float: left;
+    display: inline-block;
+
+    
+}

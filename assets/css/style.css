@@ -6,24 +6,13 @@
     border: none;
 }
 
-.button {
-    padding: 20px;
-    font-family: 'Kanit', sans-serif;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: #000;
-    background-color: rgba(0, 0, 255, 0.6);
-    border: 3px solid #000;
-    text-decoration: none;
-
-}
-
 /* Header */
 
 body {
     font-family: 'Quicksand', Arial, sans-serif;
     font-weight: 400;
-    color: #000
+    color: #000;
+    font-size: 18px;
 }
 
 h1,
@@ -58,6 +47,7 @@ h6 {
 
 #menu li {
     font-family: 'Kanit';
+    color: rgb(0, 0, 255);
     display: inline-block;
     margin-right: 50px;
     text-transform: uppercase;
@@ -76,6 +66,17 @@ a:hover {
     color: #bfff00;
 }
 
+.button {
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000;
+    background-color: rgba(0, 0, 255, 0.6);
+    border: 3px solid #000;
+    text-decoration: none;
+
+}
 
 
 /* Cover image */
@@ -97,11 +98,14 @@ a:hover {
     background: rgba(0, 0, 255, 0.6);
 
     top: 250px;
-    left: 400px;
+    left: 25%;
     padding: 3%;
     position: absolute;
 }
 
+#cover-text h2 {
+    letter-spacing: 5px;
+}
 #cover-button {
     display: inline-block;
     margin: 0%, auto;
@@ -117,6 +121,7 @@ a:hover {
     margin-right: 60px;
     margin-top: 60px;
     line-height: 20px;
+    margin-bottom: 60px;
 }
 
 #about-left {
@@ -124,6 +129,7 @@ a:hover {
     height: 300px;
     width: 30%;
     margin-top: 60px;
+    margin-bottom: 60px;
     }
 
     #about-photo-container {
@@ -134,7 +140,21 @@ a:hover {
     }
 
     #about-photo {
-        background: url('../images/profile-image.jpg') no-repeat center center;
+        background: no-repeat center center;
         height: 100%;
         margin: 0 auto;
+        overflow: hidden;
+    }
+
+    /* Gallery */
+    #gallery {
+        height: 300px;
+        width: 100vw;
+        display: inline-flex;
+
+    }
+    #gallery img {
+        height: 100%;
+        width: 100%;
+        margin-left: 2px;
     }

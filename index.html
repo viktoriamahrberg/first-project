@@ -22,13 +22,13 @@
                     <a href="index.html" class="active">Home</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about-right">About</a>
                 </li>
                 <li>
                     <a href="#exhibition-dates">Exhibition Dates</a>
                 </li>
                 <li>
-                    <a href="#">Tickets</a>
+                    <a href="#form">Tickets</a>
                 </li>
             </ul>
         </nav>
@@ -66,35 +66,48 @@
     <section id="exhibition-dates">
         <h2>Exhibition Dates</h2>
         <div class="exhibition-dates-section">
-            <h3>New York</h3>
-            <p>1-23 April 2021<br>MOMA</p>
+            <h3>New York <i class="far fa-building"></i></h3>
+            <p>01-23 April 2022<br>MOMA</p>
         </div>
         <div class="exhibition-dates-section">
-            <h3>Stockholm</h3>
-            <p>6-26 June 2021<br>Fotografiska</p>
+            <h3>Stockholm <i class="far fa-building"></i></h3>
+            <p>06-26 June 2022<br>Fotografiska</p>
         </div>
         <div class="exhibition-dates-section">
-            <h3>Paris</h3>
-            <p>2-24 September 2021<br>MEP</p>
+            <h3>Paris <i class="far fa-building"></i></h3>
+            <p>02-24 September 2022<br>MEP</p>
         </div>
     </section>
     <section id="form">
         <form method="post" action="mailto:viktoria.mahrberg@gmail.com" class="ticket-form">
             <h2>Book Tickets</h2>
-            <p>Due to Covid-19 we kindly ask you to book your free ticket to avoid crowding. Limited tickets available.</p>
-            <label for="first-name">First Name</label> 
+            <p>Due to Covid-19 we kindly ask you to book your free ticket to avoid crowding. Limited tickets available.
+            </p>
+            <label for="first-name">
+                <h4>First Name</h4>
+            </label>
             <input type="text" name="first-name" id="first-name" class="text-input" required>
-            <label for="last-name">Last Name</label> 
+            <label for="last-name">
+                <h4>Last Name</h4>
+            </label>
             <input type="text" name="last-name" id="last-name" class="text-input" required>
-            <label for="email">Email Address</label> 
+            <label for="email">
+                <h4>Email Address</h4>
+            </label>
             <input type="email" name="email-address" id="email" class="text-input" required>
-            
+            <h4>I would like to attend the following exhibition:</h4>
             <input type="radio" name="exhibition-location" id="location" value="paris" required>
-            <label for="location">Paris</label> 
+            <label for="location">Paris</label>
+            <br>
             <input type="radio" name="exhibition-location" id="location" value="stockholm">
-            <label for="location">Stockholm</label> 
+            <label for="location">Stockholm</label>
+            <br>
             <input type="radio" name="exhibition-location" id="location" value="new-work">
-            <label for="location">New York</label> 
+            <label for="location">New York</label>
+            <br>
+        <div class="center">
+            <input type="submit" class="ticket-button" value="Book Ticket">
+        </div>
         </form>
     </section>
 
@@ -103,4 +116,6 @@
     Social media tags and copyright
 </footer>
 
+<!-- Font Awsome -->
+<script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </html>

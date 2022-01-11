@@ -13,6 +13,7 @@ body {
     font-weight: 400;
     color: #000;
     font-size: 18px;
+    background-color: #f9fafa;
 }
 
 h1,
@@ -85,7 +86,12 @@ a:visited {
     text-decoration: none;
 
 }
-
+.button:hover {
+    background-color:rgb(0, 0, 255)(0, 0, 255);
+    border: 4px solid #000;
+    border-style: outset;
+    color: #bfff00;
+}
 
 /* Cover image */
 
@@ -184,7 +190,6 @@ a:visited {
 }
 .exhibition-dates-section {
     width: 33%;
-    float: left;
     display: inline-block;
     text-align: center;
     padding-top: 20px;
@@ -192,5 +197,46 @@ a:visited {
 }
 
 #form {
+    width: 33%;
+    height: 100%;
+    background-color: #bfff00;
+    margin: 0 auto;
+    padding: 20px 60px 20px 60px;
 
 }
+label > h4 {
+    margin-bottom: 5px;
+}
+.text-input {
+    height: 40px;
+    width: 100%;
+    border-style: outset;
+    border-color: #bfff00;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+.center {
+    text-align: center;
+}
+.ticket-button {
+
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 255);
+    border: 3px solid #000;
+    text-decoration: none;
+}
+
+.ticket-button:hover {
+    background-color:rgb(0, 0, 255)(0, 0, 255);
+    border: 4px solid #000;
+    border-style: outset;
+    color: #bfff00;
+}
+    
+@keyframes 

@@ -28,8 +28,12 @@ h6 {
     margin-bottom: 20px;
 }
 
-#static {
-    position: fixed;
+p {
+    line-height: 30px;
+}
+header {
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -38,12 +42,12 @@ h6 {
     float: left;
     letter-spacing: 5px;
     line-height: 55px;
+    margin-bottom: 1px;
 
 }
 
 #menu {
     float: left;
-
 }
 
 #menu li {
@@ -99,9 +103,11 @@ a:visited {
     background: url('../images/cover-image.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
+
 }
 
 .container {
+    margin-top: 100px;
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -184,10 +190,8 @@ a:visited {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
-
-    
-
 }
+
 .exhibition-dates-section {
     width: 33%;
     display: inline-block;
@@ -202,11 +206,12 @@ a:visited {
     background-color: #bfff00;
     margin: 0 auto;
     padding: 20px 60px 20px 60px;
-
 }
+
 label > h4 {
     margin-bottom: 5px;
 }
+
 .text-input {
     height: 40px;
     width: 100%;
@@ -215,11 +220,12 @@ label > h4 {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     margin-bottom: 15px;
-
 }
+
 .center {
     text-align: center;
 }
+
 .ticket-button {
 
     padding: 20px;
@@ -239,4 +245,19 @@ label > h4 {
     color: #bfff00;
 }
     
-@keyframes 
+@keyframes {
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    display: block;
+
+}
+footer li {
+    color: #000;
+    font-size: 20px;
+    
+
+}

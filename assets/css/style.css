@@ -294,6 +294,7 @@ footer li {
 /* For larger screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
+/* Header */
     h1 {
         margin-bottom: 0;
     }
@@ -306,43 +307,20 @@ footer li {
     .navbar {
         float: left;
         text-align: left;
-        color: blue;
         padding-top: 16px;
-        text-decoration: none;
     }
     
-    li {
-        font-family: 'Kanit';
-        color: rgb(0, 0, 255);
-        display: inline-block;
-        text-transform: uppercase;
-    }
 /* Cover container */
   
-    .container {
-        margin-top: 100px;
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-    }
     #cover-text {
-        color: #fff;
-        height: 8.7rem;
-        background: rgba(0, 0, 255, 0.6);
-        top: 250px;
         left: 15%;
-        padding: 3%;
     }
 /* About Section */
 
     #about-container {
-        height: 500px;
         width: 800px;
-        border: none;
-        margin: 0 auto;
     }
     #about-right {
-        float: right;
         width: 50%;
         text-align: left;
         font-size: 80%;
@@ -353,60 +331,90 @@ footer li {
     }
 
     #about-left {
-        height: 500px;
-        float: left;
         width: 35%;
         top: 7%;
         left: 2%;
     }
 
-        #about-photo-container {
-            border: 10px solid #bfff00;
-            height: 200px;
-            width: 200px;
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 40%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
+     #about-photo-container {
+        height: 200px;
+        width: 200px;
+        top: 50%;
+        left: 40%;
+    }
         
         #about-photo img {
             background-size: cover;
             width: 100%;
     }
-/* About Section */
+/* Exhibition Dates */
 
-    #exhibition-dates {
-        height: 300px;
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-    
-    .exhibition-dates-section {
+      .exhibition-dates-section {
         width: 25%;
-        display: inline-block;
-        text-align: center;
-        padding-top: 20px;
         padding-right: 20px;
     }
 /* Form Section */
     #form {
         width: 50%;
-        left: 0;
-        right: 0;
-        height: fit-content;
-        background-color: #bfff00;
-        margin: 0 auto;
-        padding: 20px 60px 20px 60px;
-        margin-bottom: 100px;
     }
 
-/* For larger screen sizes from 900px wide and down */
+/* For medium screen sizes from 750px wide and down */
+@media screen and (max-width: 750px) {
+ 
+/* Header */
+h1 {
+    margin-bottom: 0;
+}
+#logo {
+    font-size: 200%;
+    float: left;
+    margin-left: 2%;
+    width: 100%;
+}
 
+.navbar {
+    float: left;
+    text-align: left;
+    color: blue;
+    padding-top: 16px;
+    text-decoration: none;
+    font-size: 80%;
+}
 
+li {
+    font-family: 'Kanit';
+    color: rgb(0, 0, 255);
+    display: inline-block;
+    text-transform: uppercase;
+}
+/* Cover container */
+  
+.container {
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+#cover-text {
+    color: #fff;
+    font-size: 80%;
+    height: 150px;
+    background: rgba(0, 0, 255, 0.6);
+    top: 250px;
+    left: 0;
+    bottom: 0;
+}
+}
 
-/* For medium screen sizes from 700px wide and down */
-@media screen and (max-width: 700px) {
+/* For medium screen sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+.navbar {
+    float: left;
+    text-align: left;
+    color: blue;
+    padding-top: 16px;
+    text-decoration: none;
+    font-size: 80%;
+    padding-right: 5px;
+}
+}

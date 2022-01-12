@@ -366,55 +366,68 @@ h1 {
     margin-bottom: 0;
 }
 #logo {
-    font-size: 200%;
-    float: left;
-    margin-left: 2%;
     width: 100%;
 }
 
 .navbar {
-    float: left;
-    text-align: left;
-    color: blue;
-    padding-top: 16px;
-    text-decoration: none;
     font-size: 80%;
 }
 
-li {
-    font-family: 'Kanit';
-    color: rgb(0, 0, 255);
-    display: inline-block;
-    text-transform: uppercase;
-}
 /* Cover container */
   
-.container {
-    margin-top: 100px;
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-}
 #cover-text {
-    color: #fff;
     font-size: 80%;
     height: 150px;
-    background: rgba(0, 0, 255, 0.6);
     top: 250px;
     left: 0;
     bottom: 0;
+}
+/* About Section */
+
+#about-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+#about-right {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 20px;
+}
+
+#about-left {
+    height: 100px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+/* Exhibition Dates */
+
+.exhibition-dates-section {
+    width: 30%;
+    padding-right: 0;
+    font-size: 80%;
+}
+
+/* Form Section */
+#form {
+    width: 80%;
+}
+#form h2 {
+    text-align: center;
+}
+#form p {
+    text-align: center;
 }
 }
 
 /* For medium screen sizes from 500px wide and down */
 @media screen and (max-width: 500px) {
 .navbar {
-    float: left;
-    text-align: left;
-    color: blue;
-    padding-top: 16px;
-    text-decoration: none;
-    font-size: 80%;
-    padding-right: 5px;
+    font-size: 60%;
 }
 }

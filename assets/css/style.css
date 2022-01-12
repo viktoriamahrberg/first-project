@@ -54,7 +54,7 @@ header {
     float: right;
     color: blue;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2%;
     text-decoration: none;
 }
 
@@ -338,7 +338,6 @@ footer li {
     #about-container {
         height: 500px;
         width: 800px;
-        position: relative;
         border: none;
         margin: 0 auto;
     }
@@ -352,14 +351,30 @@ footer li {
         line-height: 20px;
         margin-bottom: 60px;
     }
-    
+
     #about-left {
         height: 500px;
         float: left;
         width: 35%;
-        margin: 0 auto;
-        position: relative;
+        top: 7%;
+        left: 2%;
+    }
 
+        #about-photo-container {
+            border: 10px solid #bfff00;
+            height: 200px;
+            width: 200px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        #about-photo img {
+            background-size: cover;
+            width: 100%;
     }
 /* About Section */
 
@@ -388,5 +403,10 @@ footer li {
         padding: 20px 60px 20px 60px;
         margin-bottom: 100px;
     }
+
+/* For larger screen sizes from 900px wide and down */
+
+
+
 /* For medium screen sizes from 700px wide and down */
 @media screen and (max-width: 700px) {

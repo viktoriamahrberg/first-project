@@ -319,22 +319,26 @@ footer li {
     }
 /* Cover container */
   
+    .container {
+        margin-top: 100px;
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+    }
     #cover-text {
         color: #fff;
         height: 8.7rem;
         background: rgba(0, 0, 255, 0.6);
         top: 250px;
-        left: 25%;
+        left: 15%;
         padding: 3%;
-        margin: 0 auto;
     }
-
 /* About Section */
 
     #about-container {
         height: 500px;
         width: 800px;
-
+        position: relative;
         border: none;
         margin: 0 auto;
     }

@@ -34,7 +34,7 @@ p {
 
 /* The navigation bar */
 
-.navbar {
+header {
     overflow: hidden;
     background-color: #f9fafa;
     position: fixed;
@@ -44,24 +44,22 @@ p {
     width: 100%;
     /* Full width */
     height: 100px;
-    float: right;
 
 }
-
-.navbar a {
+#logo {
+    font-size: 300%;
     float: left;
+    width: 50%;
+    margin-bottom: 1px;
+}
+.navbar {
+    float: right;
     color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-#logo {
-    font-size: 250%;
-    float: right;
-    width: 500px;
-    margin-bottom: 1px;
-}
 
 li {
     font-family: 'Kanit';
@@ -126,7 +124,6 @@ a:visited {
     overflow: hidden;
 }
 
-
 #cover-text {
     color: #fff;
     height: 8.7rem;
@@ -144,30 +141,45 @@ a:visited {
 
 /* About */
 
+#about-container {
+        height: 500px;
+        width: 66%;
+        position: relative;
+        border: none;
+        margin: 0 auto;
+      
+}
 #about-right {
     float: right;
-    height: 300px;
-    width: 60%;
+    width: 50%;
     text-align: right;
-    margin-right: 60px;
     margin-top: 60px;
     line-height: 20px;
     margin-bottom: 60px;
 }
 
 #about-left {
+    height: 500px;
     float: left;
-    height: 300px;
-    width: 30%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+
+   
 }
 
 #about-photo-container {
     border: 10px solid #bfff00;
     height: 300px;
     width: 300px;
-    margin: 0 auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ 
+
 }
 
 #about-photo {

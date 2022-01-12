@@ -37,20 +37,19 @@ header {
     overflow: hidden;
     background-color: #f9fafa;
     position: fixed;
-    /* Set the navbar to fixed position */
     top: 0;
-    /* Position the navbar at the top of the page */
     width: 100%;
-    /* Full width */
     height: 100px;
-
+    z-index: 999;
 }
+
 #logo {
     font-size: 300%;
     float: left;
     width: 50%;
-    margin-bottom: 1px;
+    margin-left: 50px;
 }
+
 .navbar {
     float: right;
     color: blue;
@@ -59,14 +58,12 @@ header {
     text-decoration: none;
 }
 
-
 li {
     font-family: 'Kanit';
     color: rgb(0, 0, 255);
     display: inline-block;
     margin-right: 50px;
     text-transform: uppercase;
-
 }
 
 li a {
@@ -113,7 +110,6 @@ a:visited {
     background: url('../images/cover-image.jpg') no-repeat center center;
     height: 600px;
     width: 100%;
-
 }
 
 .container {
@@ -137,17 +133,17 @@ a:visited {
     letter-spacing: 5px;
 }
 
-
 /* About */
 
 #about-container {
-        height: 500px;
-        width: 66%;
-        position: relative;
-        border: none;
-        margin: 0 auto;
-      
+    height: 500px;
+    width: 66%;
+    position: relative;
+    border: none;
+    margin: 0 auto;
+
 }
+
 #about-right {
     float: right;
     width: 50%;
@@ -163,8 +159,6 @@ a:visited {
     width: 50%;
     margin: 0 auto;
     position: relative;
-
-   
 }
 
 #about-photo-container {
@@ -177,8 +171,6 @@ a:visited {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
- 
-
 }
 
 #about-photo {
@@ -196,7 +188,6 @@ a:visited {
     display: inline-flex;
     overflow: auto;
     scroll-behavior: smooth;
-
 }
 
 #gallery img {
@@ -219,14 +210,14 @@ a:visited {
     display: inline-block;
     text-align: center;
     padding-top: 20px;
-
 }
+
+/* TIcket Form */
 
 #form-padding {
     height: auto;
-
-
 }
+
 #form {
     width: 33%;
     left: 0;
@@ -265,7 +256,6 @@ label>h4 {
 }
 
 .ticket-button {
-
     padding: 20px;
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
@@ -294,12 +284,105 @@ footer {
     background-color: blue;
     text-align: center;
     height: 60px;
-
-
 }
 
 footer li {
     color: white;
     font-size: 200%;
-
 }
+
+/* For larger screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    h1 {
+        margin-bottom: 0;
+    }
+    #logo {
+        font-size: 200%;
+        float: left;
+        margin-left: 2%;
+    }
+    
+    .navbar {
+        float: left;
+        text-align: left;
+        color: blue;
+        padding-top: 16px;
+        text-decoration: none;
+    }
+    
+    li {
+        font-family: 'Kanit';
+        color: rgb(0, 0, 255);
+        display: inline-block;
+        text-transform: uppercase;
+    }
+/* Cover container */
+  
+    #cover-text {
+        color: #fff;
+        height: 8.7rem;
+        background: rgba(0, 0, 255, 0.6);
+        top: 250px;
+        left: 25%;
+        padding: 3%;
+        margin: 0 auto;
+    }
+
+/* About Section */
+
+    #about-container {
+        height: 500px;
+        width: 800px;
+
+        border: none;
+        margin: 0 auto;
+    }
+    #about-right {
+        float: right;
+        width: 50%;
+        text-align: left;
+        font-size: 80%;
+        margin-top: 90px;
+        padding-right: 50px;
+        line-height: 20px;
+        margin-bottom: 60px;
+    }
+    
+    #about-left {
+        height: 500px;
+        float: left;
+        width: 35%;
+        margin: 0 auto;
+        position: relative;
+
+    }
+/* About Section */
+
+    #exhibition-dates {
+        height: 300px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .exhibition-dates-section {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+/* Form Section */
+    #form {
+        width: 50%;
+        left: 0;
+        right: 0;
+        height: fit-content;
+        background-color: #bfff00;
+        margin: 0 auto;
+        padding: 20px 60px 20px 60px;
+        margin-bottom: 100px;
+    }
+/* For medium screen sizes from 700px wide and down */
+@media screen and (max-width: 700px) {

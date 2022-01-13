@@ -23,6 +23,7 @@ Pop-up Exhibition is a one-page fully responsive home page with fixed navigation
 
 * **Gallery section:**
     * For those who doesn't know Denton Thorntons work there is a small gallery selection to showcase some of his biggest photographs. 
+    * Photos was resized to fit the banner to 300px and cover image was compressed not to take too long to load on the page. All photos have been uploaded to the 'assets/images/' folder. 
 
 * **Exhibition Dates section:**
     * A list of the current set dates of the exhibition featuring three cities and its location. 
@@ -45,9 +46,21 @@ A potential webshop to sell small posters when the exhibition is on.
 All links have been tested and clicked on to confirm they are directing to the correct end-destination, both during the building of the site and a final check before deploying. 
 During the building of the site there was a conistent check in preview window to see that all changes looked good and how (if) it affected the rest of the site. 
 
-* HTML (https://validator.w3.org/)
-    * In the first HTML check a header to the Gallery section was missed. I tried to add it but decided that visually it wouldn't look good and trust the images speak for themselves. I decided to but an aria-label to the gallery section instead. 
+Setting up the site and it's structure and styling was quite unproblematic, going through one section at the time and testing it live before moving on to the next one. However I had the following issues:
+
+* Container with 100% changing size when button border expands 1px on hover
+Solve help support: 
+Ok, so I think you'll need to set the form div position to absolute, and the height to fit-content. That will stop it resizing. You'll have to center it then using this css:
+
+    * In the first HTML check a header to the Gallery section was missed. I tried to add it but decided that visually it wouldn't look good and trust the images speak for themselves.
     * In the Form section I had repeated the same label-id for the three radio buttons which was changed to unique id's.
+
+    I
+
+* HTML (https://validator.w3.org/)
+
+
+
 
 
 

@@ -71,14 +71,13 @@
 
     <!--Gallery-->
 
-    <section>
-        <div id="gallery" aria-label="Gallery"> 
+    <section id="gallery">
+        <h2>Gallery</h2>
             <img src="assets/images/Rockstar-girl-on-stage2.jpg" alt="A girl singing on stage">
             <img src="assets/images/Rockstar-on-stage1.jpeg" alt="One rockstar on stage">
             <img src="assets/images/Rockstar-on-stage2.jpg" alt="One rockstar on stage closing his hands">
             <img src="assets/images/Rockstar-on-stage3.jpg" alt="A rockstar on stage playing guitar">
             <img src="assets/images/Rockstar-girl-on-stage1.jpg" alt="A girl playing guitar on stage">
-        </div>
     </section>
         
     <!--Exhibition Dates-->
@@ -108,33 +107,33 @@
                 <p>Due to Covid-19 we kindly ask you to book your free ticket to avoid crowding. Limited tickets
                     available.
                 </p>
-                <label for="first-name">
-                    <p>First Name</p>
-                </label>
+                <p>First Name</p>
+                <label for="first-name"></label>
                 <input type="text" name="first-name" id="first-name" class="text-input" required>
-                <label for="last-name">
-                    <p>Last Name</p>
-                </label>
+                
+                <p>Last Name</p>
+                <label for="last-name"></label>
                 <input type="text" name="last-name" id="last-name" class="text-input" required>
-                <label for="email">
-                    <p>Email Address</p>
-                </label>
+                
+                <p>Email Address</p>
+                <label for="email"></label>
                 <input type="email" name="email-address" id="email" class="text-input" required>
+                
                 <p>I would like to attend the following exhibition:</p>
                 <input type="radio" name="exhibition-location" id="paris" value="paris" required>
-                <label for="location">Paris</label>
+                <label for="paris">Paris</label>
                 <br>
                 <input type="radio" name="exhibition-location" id="stockholm" value="stockholm">
-                <label for="location">Stockholm</label>
+                <label for="stockholm">Stockholm</label>
                 <br>
                 <input type="radio" name="exhibition-location" id="new-york" value="new-work">
-                <label for="location">New York</label>
+                <label for="new-york">New York</label>
                 <br>
                 <div id="form-center-button">
                     <input type="submit" class="ticket-button" value="Book Ticket">
                 </div>
+            </form>>
         </div>
-        </form>
     </section>
 
     <!--Footer-->
@@ -148,11 +147,10 @@
             <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
             </li>
         </ul>
-        </div>
     </footer>
-</body>
-
+    
 <!-- Font Awsome -->
 <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 
+</body>
 </html>

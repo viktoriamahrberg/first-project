@@ -63,7 +63,11 @@ I could have changed the 100% container to fixed size but wanted it to be respon
 * In the first HTML check a header to the Gallery section was missed. I tried to add it but decided that visually it wouldn't look good and trust the images speak for themselves. I therefor decided to add it to the HTML file for screenreaders to see but to hide it for the viewers with CSS.
 
 The site is made to be responsive to devices down to 500px and smaller. The aim was to keep the flow as much as possible but following changes was made responsive:
-    * The About section has been split to two stacks on top of eachother instead of side by side on the 
+
+    * At 1200px the Navigation bar doesn't fit the screen anymore so it was set to the left below the logo instead of to the right, and slightly smaller font size at this breakpoint.
+    * The About section has been split to two blocks on top of eachother on devices from 750px and smaller instead of side by side as it is on desktop view. The 750px was the breakpoint where it started to look unpleasant.
+    • At 500px and smaller all elements have been centralised for a nicer flow for the viewer. 
+   
 ## Validator Testing
 
 * HTML

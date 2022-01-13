@@ -235,7 +235,7 @@ label>h4 {
 
 .text-input {
     height: 40px;
-    width: 100%;
+    width: 90%;
     border-style: outset;
     border-color: #bfff00;
     font-family: 'Quicksand', sans-serif;
@@ -294,32 +294,35 @@ footer li {
 /* For larger screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-/* Header */
+    /* Header */
     h1 {
         margin-bottom: 0;
     }
+
     #logo {
         font-size: 200%;
         float: left;
         margin-left: 2%;
     }
-    
+
     .navbar {
         float: left;
         text-align: left;
         padding-top: 16px;
     }
-    
-/* Cover container */
-  
+
+    /* Cover container */
+
     #cover-text {
         left: 15%;
     }
-/* About Section */
+
+    /* About Section */
 
     #about-container {
         width: 800px;
     }
+
     #about-right {
         width: 50%;
         text-align: left;
@@ -336,98 +339,108 @@ footer li {
         left: 2%;
     }
 
-     #about-photo-container {
+    #about-photo-container {
         height: 200px;
         width: 200px;
         top: 50%;
         left: 40%;
     }
-        
-        #about-photo img {
-            background-size: cover;
-            width: 100%;
-    }
-/* Exhibition Dates */
 
-      .exhibition-dates-section {
+    #about-photo img {
+        background-size: cover;
+        width: 100%;
+    }
+
+    /* Exhibition Dates */
+
+    .exhibition-dates-section {
         width: 25%;
         padding-right: 20px;
     }
-/* Form Section */
+
+    /* Form Section */
     #form {
-        width: 50%;
+        width: 500px;
+    }
+    #form-padding {
+        height: auto;
+        padding: 0;
+    }
+    /* For medium screen sizes from 750px wide and down */
+    @media screen and (max-width: 750px) {
+
+        /* Header */
+        h1 {
+            margin-bottom: 0;
+        }
+
+        #logo {
+            width: 100%;
+        }
+
+        .navbar {
+            font-size: 80%;
+        }
+
+        /* Cover container */
+
+        #cover-text {
+            font-size: 70%;
+            height: 150px;
+            top: 250px;
+            left: 0;
+            bottom: 0;
+        }
+
+        /* About Section */
+
+        #about-container {
+            width: 66%;
+            margin: 0 auto;
+        }
+
+        #about-right {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 60px;
+            line-height: 20px;
+        }
+
+        #about-left {
+            height: 100px;
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 150px;
+        }
+
+        /* Exhibition Dates */
+
+        .exhibition-dates-section {
+            width: 30%;
+            padding-right: 0;
+            font-size: 80%;
+        }
+
+        /* Form Section */
+        #form {
+            width: 450px;
+            padding: 0;
+        }
+
+        #form h2 {
+            text-align: center;
+        }
+
+        #form p {
+            text-align: center;
+        }
     }
 
-/* For medium screen sizes from 750px wide and down */
-@media screen and (max-width: 750px) {
- 
-/* Header */
-h1 {
-    margin-bottom: 0;
-}
-#logo {
-    width: 100%;
-}
-
-.navbar {
-    font-size: 80%;
-}
-
-/* Cover container */
-  
-#cover-text {
-    font-size: 70%;
-    height: 150px;
-    top: 250px;
-    left: 0;
-    bottom: 0;
-}
-/* About Section */
-
-#about-container {
-    width: 66%;
-    margin: 0 auto;
-}
-
-#about-right {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: 60px;
-    line-height: 20px;
-}
-
-#about-left {
-    height: 100px;
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 150px;
-}
-
-/* Exhibition Dates */
-
-.exhibition-dates-section {
-    width: 30%;
-    padding-right: 0;
-    font-size: 80%;
-}
-
-/* Form Section */
-#form {
-    width: 80%;
-}
-#form h2 {
-    text-align: center;
-}
-#form p {
-    text-align: center;
-}
-}
-
-/* For medium screen sizes from 500px wide and down */
-@media screen and (max-width: 500px) {
-.navbar {
-    font-size: 60%;
-}
-}
+    /* For medium screen sizes from 500px wide and down */
+    @media screen and (max-width: 500px) {
+        .navbar {
+            font-size: 60%;
+        }
+    }

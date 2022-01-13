@@ -2,6 +2,8 @@
 
 This Pop-up Exhibition site is covering all the user needs to know about the famous music photographer Denton Thornton's first ever pop-up exhibition that will be presented in three cities globally and the source to get access to the limited free tickets. 
 
+[](/workspace/pop-up-exhibition/assets/css/media/pop-up-exhibition-responsive.png)
+
 ## Features
 
 ### Existing Features
@@ -75,6 +77,10 @@ The site is made to be responsive to devices down to 500px and smaller. The aim 
 
 * CSS
     * No errors were detected when passing through the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+
+* Accessibility 
+
+    * I confirm that the colors and font chosen is easy to read and have been run through Lighthouse in Devtools.
 
 ### Unfixed Bugs
 

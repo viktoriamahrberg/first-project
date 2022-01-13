@@ -14,7 +14,7 @@
 <body>
 
     <!--Header-->
-    
+
     <header>
         <nav>
             <a href="index.html">
@@ -47,7 +47,7 @@
         </div>
     </Section>
 
-<!--About Section-->
+    <!--About Section-->
 
     <section id="about-container">
         <div id="about-right">
@@ -71,14 +71,16 @@
 
     <!--Gallery-->
 
-    <section id="gallery">
-        <img src="assets/images/Rockstar-girl-on-stage2.jpg" alt="A girl singing on stage">
-        <img src="assets/images/Rockstar-on-stage1.jpeg" alt="One rockstar on stage">
-        <img src="assets/images/Rockstar-on-stage2.jpg" alt="One rockstar on stage closing his hands">
-        <img src="assets/images/Rockstar-on-stage3.jpg" alt="A rockstar on stage playing guitar">
-        <img src="assets/images/Rockstar-girl-on-stage1.jpg" alt="A girl playing guitar on stage">
+    <section>
+        <div id="gallery" aria-label="Gallery"> 
+            <img src="assets/images/Rockstar-girl-on-stage2.jpg" alt="A girl singing on stage">
+            <img src="assets/images/Rockstar-on-stage1.jpeg" alt="One rockstar on stage">
+            <img src="assets/images/Rockstar-on-stage2.jpg" alt="One rockstar on stage closing his hands">
+            <img src="assets/images/Rockstar-on-stage3.jpg" alt="A rockstar on stage playing guitar">
+            <img src="assets/images/Rockstar-girl-on-stage1.jpg" alt="A girl playing guitar on stage">
+        </div>
     </section>
-
+        
     <!--Exhibition Dates-->
 
     <section id="exhibition-dates">
@@ -107,25 +109,25 @@
                     available.
                 </p>
                 <label for="first-name">
-                    <h4>First Name</h4>
+                    <p>First Name</p>
                 </label>
                 <input type="text" name="first-name" id="first-name" class="text-input" required>
                 <label for="last-name">
-                    <h4>Last Name</h4>
+                    <p>Last Name</p>
                 </label>
                 <input type="text" name="last-name" id="last-name" class="text-input" required>
                 <label for="email">
-                    <h4>Email Address</h4>
+                    <p>Email Address</p>
                 </label>
                 <input type="email" name="email-address" id="email" class="text-input" required>
-                <h4>I would like to attend the following exhibition:</h4>
-                <input type="radio" name="exhibition-location" id="location" value="paris" required>
+                <p>I would like to attend the following exhibition:</p>
+                <input type="radio" name="exhibition-location" id="paris" value="paris" required>
                 <label for="location">Paris</label>
                 <br>
-                <input type="radio" name="exhibition-location" id="location" value="stockholm">
+                <input type="radio" name="exhibition-location" id="stockholm" value="stockholm">
                 <label for="location">Stockholm</label>
                 <br>
-                <input type="radio" name="exhibition-location" id="location" value="new-work">
+                <input type="radio" name="exhibition-location" id="new-york" value="new-work">
                 <label for="location">New York</label>
                 <br>
                 <div id="form-center-button">

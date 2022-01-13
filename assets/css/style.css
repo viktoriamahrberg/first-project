@@ -4,7 +4,10 @@
     margin: 0;
     border: none;
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /* Header */
 
 body {
@@ -229,7 +232,7 @@ a:visited {
     margin-bottom: 100px;
 }
 
-label>h4 {
+label>p {
     margin-bottom: 5px;
 }
 
@@ -288,7 +291,7 @@ footer {
 
 footer li {
     color: white;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 /* For larger screen sizes from 1200px wide and down */
@@ -453,8 +456,6 @@ footer li {
         }
 
     /* Form Section */
-
-
         #about-right {
             padding: 0px;
         }
@@ -462,3 +463,4 @@ footer li {
         #about-left {
             left: 10%;
         }
+    }

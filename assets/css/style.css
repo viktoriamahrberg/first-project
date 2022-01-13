@@ -362,10 +362,12 @@ footer li {
     #form {
         width: 500px;
     }
+
     #form-padding {
         height: auto;
         padding: 0;
     }
+
     /* For medium screen sizes from 750px wide and down */
     @media screen and (max-width: 750px) {
 
@@ -426,7 +428,7 @@ footer li {
         /* Form Section */
         #form {
             width: 450px;
-            padding: 0;
+            padding: 10px;
         }
 
         #form h2 {
@@ -443,4 +445,20 @@ footer li {
         .navbar {
             font-size: 60%;
         }
-    }
+
+    /* Form Section */
+        #form {
+            width: 350px;
+            padding: 2px;
+        }
+
+    /* Form Section */
+
+
+        #about-right {
+            padding: 0px;
+        }
+
+        #about-left {
+            left: 10%;
+        }

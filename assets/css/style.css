@@ -149,12 +149,13 @@ a:visited {
     position: relative;
     border: none;
     margin: 0 auto;
+    scroll-margin-top: 2em;
 }
 
 #about-right {
     float: right;
     width: 50%;
-    text-align: right;
+    text-align: left;
     margin-top: 70px;
     line-height: 20px;
     margin-bottom: 60px;
@@ -220,6 +221,7 @@ audio {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 20px;
+    scroll-margin-top: 6em;
 }
 
 .exhibition-dates-section {
@@ -227,6 +229,7 @@ audio {
     display: inline-block;
     text-align: center;
     padding-top: 20px;
+
 }
 
 /* Ticket Form */
@@ -240,6 +243,7 @@ audio {
     margin: 0 auto;
     padding: 20px 60px 20px 60px;
     margin-bottom: 100px;
+    scroll-margin-top: 6em;
 }
 
 label>p {

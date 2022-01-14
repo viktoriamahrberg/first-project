@@ -27,6 +27,7 @@ Pop-up Exhibition is a one-page fully responsive home page with fixed navigation
 * **About section:**
     * The About section is for the user to read into who he is and be intruiged to visit the exhibition. 
     * The About section is also featuring a photo of the photographer himself. 
+    * An audio snippet has been added with controls
 
 ![About section](assets/css/media/pop-up-exhibition-about.png)
 
@@ -58,8 +59,12 @@ A potential webshop to sell small posters when the exhibition is on.
 
 ## Testing
 
+### Functionality Testing
+
 All links have been tested and clicked on to confirm they are pointing to the correct end-destination, both during the building of the site and a final check before deploying. 
-During the building of the site there was a conistent check in preview window to see that all changes looked good and how (if) it affected the rest of the site. 
+I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues and to see how changes effected the rest of the site. 
+
+Unicorn Revealer extension to chrome browser was very helpful with a padding issue I could not find in Developer Tools. 
 
 Setting up the site and it's structure and styling was quite unproblematic, going through one section at the time and testing it live before moving on to the next one. However I had the following issues:
 
@@ -81,6 +86,9 @@ The site is made to be responsive to devices down to 500px and smaller. The aim 
 * At 1200px the Navigation bar doesn't fit the screen anymore so it was set to the left below the logo instead of to the right, and slightly smaller font size at this breakpoint.
 * The About section has been split to two blocks on top of eachother on devices from 750px and smaller instead of side by side as it is on desktop view. The 750px was the breakpoint where it started to look unpleasant.
 * At 500px and smaller all elements have been centralised for a nicer flow for the viewer. 
+
+### Compatibility testing
+Site was tested across multiple mobile devices and browsers. I checked all supported devices in Chrome Developer Tools with the smallest device being Iphone 5. 
    
 ## Validator Testing
 
@@ -110,17 +118,29 @@ The page has been deployed to Github Pages following below steps:
 4. Press _Save_
 5. The site is published and can be found [here](https://viktoriamahrberg.github.io/pop-up-exhibition/).
 
+To run localy:
+
+1. On the Github repository page, click _Code_ button do download zip file
+2. After download you can extract the file and use it in your local environment.
+
+
 ## Credits
 
 **Content**
 
-* Assistance is coming from the tutors at Code Institute and my Mentor Adeye Gbenga.
-* Tutorials and codes how to prevent horizontal scrolling, place content in the center are from https://stackoverflow.com/ and https://www.w3schools.com/
-* Icons next to Exhibition Dates and Social Media come from [Font Awsome](https://fontawesome.com/)
-* [Google Fonts](https://fonts.google.com/) was used to import the fonts "Archivo Black" and Kanit
+* To complete this project I used Code Institute [Github Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* Assistance is coming from the tutors at Code Institute 
+* Assistance is coming from my Mentor Adeye Gbenga.
+* Tutorials, ideas and knowledge:
+    * [Stackoverflow](https://stackoverflow.com/) 
+    * [w3schools.com](https://www.w3schools.com/)
+* Fonts and Icons:
+    * [Font Awsome](https://fontawesome.com/)
+    * [Google Fonts](https://fonts.google.com/) ("Archivo Black" and Kanit)
 
 **Media**
 
-Photos for cover image and gallery are all open-source and taken from https://stocksnap.io/.
+* Photos: [Stocksnap.io](https://stocksnap.io/)
+* Audio: [Audiomicro](https://www.audiomicro.com/).
 
 

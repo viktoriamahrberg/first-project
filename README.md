@@ -2,7 +2,7 @@
 
 This Pop-up Exhibition site is covering all the user needs to know about the famous music photographer Denton Thornton's first ever pop-up exhibition that will be presented in three cities globally and the source to get access to the limited free tickets. 
 
-[Responsive image](/assets/media/pop-up-exhibition-responsive)
+[Responsive image](/assets/media/pop-up-exhibition-responsive.png)
 
 ## Features
 

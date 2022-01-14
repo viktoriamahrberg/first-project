@@ -2,7 +2,7 @@
 
 This Pop-up Exhibition site is covering all the user needs to know about the famous music photographer Denton Thornton's first ever pop-up exhibition that will be presented in three cities globally and the source to get access to the limited free tickets. 
 
-[Responsive image](/assets/media/pop-up-exhibition-responsive.png)
+![Responsive image](assets/css/media/pop-up-exhibition-responsive.png)
 
 ## Features
 
@@ -15,34 +15,46 @@ Pop-up Exhibition is a one-page fully responsive home page with fixed navigation
     * The fixed navigation bar allows the viewer to easily access the requested sections.
     * Logo is clickable and takes the user to the top of the page. 
 
+![Navigation bar](assets/css/media/pop-up-exhibition-navbar.png)
+
 * **Cover section:**
     * This section should attract the user to visit the exhibition with a one of the photographers most famous photograph. 
     * There is a cover-box that highlights the three cities the exhibition will be shown in and a call-to-action button to encourage the users to book their tickets. 
     The cover box is fully responsive and is a fixed box on smaller devices. 
 
+![Cover image](assets/css/media/pop-up-exhibition-cover.png)
+
 * **About section:**
     * The About section is for the user to read into who he is and be intruiged to visit the exhibition. 
     * The About section is also featuring a photo of the photographer himself. 
+
+![About section](assets/css/media/pop-up-exhibition-about.png)
 
 * **Gallery section:**
     * For those who doesn't know Denton Thorntons work there is a small gallery selection to showcase some of his biggest photographs. 
     * Photos was resized to fit the banner to 300px and cover image was compressed not to take too long to load on the page. All photos have been uploaded to the 'assets/images/' folder. 
 
+![Gallery section](assets/css/media/pop-up-exhibition-gallery.png)
+
 * **Exhibition Dates section:**
     * A list of the current set dates of the exhibition featuring three cities and its location. 
 
+![Exhibition Dates section](assets/css/media/pop-up-exhibition-dates.png)
+
 * **Book Tickets section:**
     * A form that allows the user to book their tickets by filling out first name, surname and email and finally the requested location in forms of radio buttons. All fields are _required_ and must be filled out by the user before submitting their form.
+
+![Book Tickets section](assets/css/media/pop-up-exhibition-form.png)
 
 * **Footer section:**
     * A fixed footer for easy access to the social media links. 
     * The icons direct the user to the social media pages in a new window for the user to follow news and updates, not having to loose access to the current webpage. 
 
+![Footer section](assets/css/media/pop-up-exhibition-footer.png)
 
 ### Features Left to Implement
 
 A potential webshop to sell small posters when the exhibition is on. 
-
 
 ## Testing
 
@@ -66,9 +78,9 @@ I could have changed the 100% container to fixed size but wanted it to be respon
 
 The site is made to be responsive to devices down to 500px and smaller. The aim was to keep the flow as much as possible but following changes was made responsive:
 
-    * At 1200px the Navigation bar doesn't fit the screen anymore so it was set to the left below the logo instead of to the right, and slightly smaller font size at this breakpoint.
-    * The About section has been split to two blocks on top of eachother on devices from 750px and smaller instead of side by side as it is on desktop view. The 750px was the breakpoint where it started to look unpleasant.
-    • At 500px and smaller all elements have been centralised for a nicer flow for the viewer. 
+* At 1200px the Navigation bar doesn't fit the screen anymore so it was set to the left below the logo instead of to the right, and slightly smaller font size at this breakpoint.
+* The About section has been split to two blocks on top of eachother on devices from 750px and smaller instead of side by side as it is on desktop view. The 750px was the breakpoint where it started to look unpleasant.
+* At 500px and smaller all elements have been centralised for a nicer flow for the viewer. 
    
 ## Validator Testing
 
@@ -81,6 +93,8 @@ The site is made to be responsive to devices down to 500px and smaller. The aim 
 * Accessibility 
 
     * I confirm that the colors and font chosen is easy to read and have been run through Lighthouse in Devtools.
+
+![Lighthouse validator](assets/css/media/pop-up-exhibition-lighthouse.png)
 
 ### Unfixed Bugs
 
@@ -103,6 +117,7 @@ The page has been deployed to Github Pages following below steps:
 * Assistance is coming from the tutors at Code Institute and my Mentor Adeye Gbenga.
 * Tutorials and codes how to prevent horizontal scrolling, place content in the center are from https://stackoverflow.com/ and https://www.w3schools.com/
 * Icons next to Exhibition Dates and Social Media come from [Font Awsome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/) was used to import the fonts "Archivo Black" and Kanit
 
 **Media**
 

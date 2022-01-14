@@ -465,11 +465,6 @@ footer li {
         }
         li {
             margin-right: 20px;
-
-        /* Form Section */
-        #form {
-            width: 350px;
-            padding: 2px;
         }
 
         /* About Section */
@@ -506,7 +501,7 @@ footer li {
          /* Form Section */
          #form {
             width: 300px;
-            padding: 10px;
+            padding: 2px;
         }
      
     }
